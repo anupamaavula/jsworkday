@@ -1,0 +1,15 @@
+// 4. Write a program that asks the user for a number n and prints the sum of the
+// numbers 1 to n
+
+
+
+function sumOfDigits(num)
+{
+	
+	var result=0;
+	for(var x=1;x<=num;x++)
+		result+=x;
+	return result;
+
+}
+console.log(sumOfDigits(5));
